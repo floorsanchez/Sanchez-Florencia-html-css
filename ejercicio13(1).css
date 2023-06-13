@@ -1,0 +1,39 @@
+#ejercicioUno{
+    display: block;
+    text-align: center;
+}
+#ejercicioDos{
+    display: none;
+    
+}
+#ejercicioTres{
+    top: 100px;
+    left: 200px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+#ejercicioCuatro{
+    position: fixed;
+    top: 0px;
+}
+#ejercicioCinco{
+    display: flex;
+    justify-content: space-around;
+}
+#ejercicioSiete {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #elementoUno {
+    align-items: center;
+  }
+  #elementoDos {
+    justify-content: center;
+  }
+  #elementoTres {
+    align-self: baseline;
+  }
+  #elementoCuatro{
+    flex-direction: column;
+  }
